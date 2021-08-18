@@ -9,7 +9,31 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container-fluid"><!-- In bootstrap, the container is used to set the content’s margin. 
+    <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light width-">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Home</a>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+              </ul>
+              <span class="navbar-text">
+                Navbar text with an inline element
+              </span>
+            </div>
+          </nav>
+    </div>
+    <div class="container-fluid" ><!-- In bootstrap, the container is used to set the content’s margin. 
                                       It contains row elements and the row elements are container of columns.
                                       This is known as the grid system. There are two container classes in bootstrap:  
                                       1.  container
@@ -19,6 +43,7 @@
                                                                      be responsive. row == 12 equal pieces in bootstrap .
                                                                      col-12 = 12/12 = 1 , col-6 = 12/6 = 2 , 
                                                                      clo-2 = 12/2 = 6, etc.. you can adjest as your like-->
+        <button type="button" class="btn btn-info">Bottom</button>
         <p class="bg-dark text-white">Features
             Bootstrap is a HTML, CSS & JS Library that focuses on simplifying the development of informative web pages (as opposed to web apps). The primary purpose of adding it to a web project is to apply Bootstrap's choices of color, size, font and layout to that project. As such, the primary factor is whether the developers in charge find those choices to their liking. Once added to a project, Bootstrap provides basic style definitions for all HTML elements. The result is a uniform appearance for prose, tables and form elements across web browsers. In addition, developers can take advantage of CSS classes defined in Bootstrap to further customize the appearance of their contents. For example, Bootstrap has provisioned for light- and dark-colored tables, page headings, more prominent pull quotes, and text with a highlight.
             
